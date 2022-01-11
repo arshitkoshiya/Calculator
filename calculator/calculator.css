@@ -1,0 +1,126 @@
+.main {
+    border: 5px solid rgb(0, 0, 0);
+    max-width: 1050px;
+    max-height: 1000px;
+    padding: 1% 0.5% 2.5% 1%;
+    border-radius: 33px;
+    background-color: rgb(77, 77, 77);
+    margin: auto;
+}
+
+.grid-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#screen {
+    text-align: end;
+    max-width: fit-content;
+    font-size: 84px;
+    max-height: 20%;
+    background-color: rgba(151, 196, 135, 0.637);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 125px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 2%;
+}
+
+.grid-container>button {
+    width: 250px;
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 100px;
+    cursor: pointer;
+}
+
+.i_AC {
+    border: 2px solid black;
+}
+
+button:hover {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.i1 {
+    border: 2px solid black;
+}
+
+.i2 {
+    border: 2px solid black;
+}
+
+.i3 {
+    border: 2px solid black;
+}
+
+.i4 {
+    border: 2px solid black;
+}
+
+.i5 {
+    border: 2px solid black;
+}
+
+.i6 {
+    border: 2px solid black;
+}
+
+.i7 {
+    border: 2px solid black;
+}
+
+.i8 {
+    border: 2px solid black;
+}
+
+.i9 {
+    border: 2px solid black;
+}
+
+.i0 {
+    border: 2px solid black;
+    grid-row: 4 / span 2;
+    grid-column: 2 / span 1;
+}
+
+.i_plus {
+    border: 2px solid black;
+}
+
+.i_minus {
+    border: 2px solid black;
+}
+
+.i_division {
+    border: 2px solid black;
+}
+
+.i_modyoulo {
+    border: 2px solid black;
+}
+
+.i_equal {
+    border: 2px solid black;
+    grid-row: 4 / span 2;
+    grid-column: 4 / span 1;
+}
+
+.i_multiply {
+    border: 2px solid black;
+}
+
+.i_dot {
+    border: 2px solid black;
+}
